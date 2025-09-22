@@ -33,6 +33,7 @@ CityItem.propTypes = {
     cityName: PropTypes.string.isRequired,
     date: PropTypes.string.isRequired,
     emoji: PropTypes.string.isRequired,
-    id: PropTypes.number.isRequired,
+    id: PropTypes.string.isRequired,
+    position: PropTypes.object.isRequired,
   }).isRequired,
 };
