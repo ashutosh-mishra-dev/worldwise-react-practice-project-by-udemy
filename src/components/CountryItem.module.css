@@ -16,4 +16,5 @@
 .countryItem span:first-child {
   font-size: 3rem;
   line-height: 1;
+  font-family: "Noto Color Emoji", sans-serif;
 }
