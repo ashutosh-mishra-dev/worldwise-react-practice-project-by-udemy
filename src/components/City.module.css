@@ -1,9 +1,9 @@
 .city {
   padding: 2rem 3rem;
-  max-height: 70%;
+  max-height: 75%;
   background-color: var(--color-dark--2);
   border-radius: 7px;
-  overflow: scroll;
+  //overflow: scroll;
 
   width: 100%;
   display: flex;
@@ -20,7 +20,7 @@
 .city h6 {
   text-transform: uppercase;
   font-size: 1.1rem;
-  font-weight: 900;
+  //font-weight: 900;
   color: var(--color-light--1);
 }
 
@@ -34,6 +34,7 @@
 .city h3 span {
   font-size: 3.2rem;
   line-height: 1;
+  font-family: "Noto Color Emoji", sans-serif;
 }
 
 .city p {
