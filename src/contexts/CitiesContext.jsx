@@ -56,6 +56,7 @@ function useCities() {
   const context = useContext(CitiesContext);
   return context;
 }
+
 export { CitiesProvider, useCities };
 
 CitiesProvider.propTypes = {
