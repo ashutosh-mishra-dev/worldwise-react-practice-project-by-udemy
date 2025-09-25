@@ -12,13 +12,20 @@ import {
 import { useEffect, useState } from "react";
 import { useCities } from "../contexts/CitiesContext";
 import PropTypes from "prop-types";
+import { useGeolocation } from "../hooks/useGeolocation";
+import Button from "./Button";
 
 function Map() {
   const { cities } = useCities();
-
   const [mapPosition, setMapPosition] = useState([21.7679, 78.8718]);
-
   const [searchParams] = useSearchParams();
+
+  // using third party geolocation function in our custom hook
+  const {
+    isLoading: isLoadingGeolocation, // here isLoading variable name and we also rename with isLoadingGeolocation
+    position: geolocationPosition, // same as above mension message
+    getPosition,
+  } = useGeolocation();
 
   const mapLat = searchParams.get("lat");
   const mapLng = searchParams.get("lng");
@@ -30,9 +37,22 @@ function Map() {
     [mapLat, mapLng]
   );
 
+  useEffect(
+    function () {
+      if (geolocationPosition)
+        setMapPosition([geolocationPosition.lat, geolocationPosition.lng]);
+    },
+    [geolocationPosition]
+  );
   //console.log("mapLat : ", mapLng);
   return (
     <div className={styles.mapContainer}>
+      {!geolocationPosition && (
+        <Button type="position" onClick={getPosition}>
+          {isLoadingGeolocation ? "Loading..." : "Use your position"}
+        </Button>
+      )}
+
       <MapContainer
         center={mapPosition}
         zoom={6}
@@ -42,6 +62,7 @@ function Map() {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
         />
+
         {cities.map((city) => (
           <Marker
             position={[city.position.lat, city.position.lng]}
