@@ -1,4 +1,4 @@
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import styles from "./Map.module.css";
 
 import {
@@ -13,12 +13,12 @@ import { useEffect, useState } from "react";
 import { useCities } from "../contexts/CitiesContext";
 import PropTypes from "prop-types";
 import { useGeolocation } from "../hooks/useGeolocation";
+import { useUrlPosition } from "../hooks/useUrlPosition";
 import Button from "./Button";
 
 function Map() {
   const { cities } = useCities();
   const [mapPosition, setMapPosition] = useState([21.7679, 78.8718]);
-  const [searchParams] = useSearchParams();
 
   // using third party geolocation function in our custom hook
   const {
@@ -27,8 +27,9 @@ function Map() {
     getPosition,
   } = useGeolocation();
 
-  const mapLat = searchParams.get("lat");
-  const mapLng = searchParams.get("lng");
+  // here we are using hook
+  const [mapLat, mapLng] = useUrlPosition();
+  console.log("position : ", mapLat, mapLng);
 
   useEffect(
     function () {
