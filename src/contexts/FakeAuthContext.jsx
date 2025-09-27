@@ -33,11 +33,19 @@ function AuthProvider({ children }) {
     reducer,
     initialState
   );
-  //console.log(user);
+  console.log(user, "isAuthenticated :", isAuthenticated);
 
   function login(email, password) {
+    // console.log(
+    //   `user provide email is : '${email}' and fake api email is : '${FAKE_USER.email}'`
+    // );
+    // console.log(
+    //   `user provide password is : '${password}' and fake api password is : '${FAKE_USER.password}'`
+    // );
+
     if (email === FAKE_USER.email && password === FAKE_USER.password)
       dispatch({ type: "login", payload: FAKE_USER });
+    else console.log("email and password not correct");
   }
 
   function logout() {
@@ -55,6 +63,8 @@ function useAuth() {
   const context = useContext(AuthContext);
   if (context === undefined)
     throw new Error("AuthContext was used outside AuthProvider");
+
+  return context;
 }
 
 export { AuthProvider, useAuth };
