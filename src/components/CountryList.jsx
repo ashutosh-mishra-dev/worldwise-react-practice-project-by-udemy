@@ -22,9 +22,13 @@ function CountryList() {
   //   else return arr;
   // }, []);
 
+  //console.log("countries : ", countries);
+
   //ye code bhi right h yha "reduce + some" use kiya gya h unique country nikalne ke liye to best ye h
 
   const countries = cities.reduce((arr, city) => {
+    console.log(arr);
+
     if (!arr.some((el) => el.country === city.country)) {
       return [...arr, { country: city.country, emoji: city.emoji }];
     }

@@ -1,52 +1,40 @@
 {
   "cities": [
     {
-      "cityName": "Varansi",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-09-13T15:59:59.138Z",
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
       "notes": "My favorite city so far!",
       "position": {
-        "lat": 25.3109,
-        "lng": 83.0107
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
       },
-      "id": "10003"
+      "id": "73930385"
     },
     {
-      "cityName": "Kathmandu",
-      "country": "Nepal",
-      "emoji": "🇳🇵",
-      "date": "2025-09-13T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
       "position": {
-        "lat": 27.7105,
-        "lng": 85.3488
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
       },
-      "id": "10004"
+      "id": "17806751"
     },
     {
-      "cityName": "Kuala Lumpur",
-      "country": "Malaysia",
-      "emoji": "🇲🇾",
-      "date": "2025-09-13T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "cityName": "Berlin",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2027-02-12T09:24:11.863Z",
+      "notes": "Amazing 😃",
       "position": {
-        "lat": 3.2379,
-        "lng": 101.684
+        "lat": 52.53586782505711,
+        "lng": 13.376933665713324
       },
-      "id": "10005"
-    },
-    {
-      "cityName": "Kumbhabhishekham",
-      "country": "Sri Lanka",
-      "emoji": "🇱🇰",
-      "date": "2025-09-13T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 8.5825,
-        "lng": 81.245556
-      },
-      "id": "10006"
+      "id": "98443197"
     }
   ]
 }
