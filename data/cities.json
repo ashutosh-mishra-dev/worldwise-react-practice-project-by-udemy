@@ -35,6 +35,66 @@
         "lng": 13.376933665713324
       },
       "id": "98443197"
+    },
+    {
+      "id": "1111",
+      "cityName": "Varanasi",
+      "countryName": "India",
+      "emoji": "🇮🇳",
+      "notes": "",
+      "date": "2025-09-27T09:31:31.051Z",
+      "position": {
+        "lat": "25.353835940198323",
+        "lng": "83.11285007058649"
+      }
+    },
+    {
+      "id": "1112",
+      "cityName": "Ujjain",
+      "countryName": "India",
+      "emoji": "🇮🇳",
+      "notes": "",
+      "date": "2025-09-27T09:32:04.793Z",
+      "position": {
+        "lat": "23.157624656464492",
+        "lng": "75.93628944793123"
+      }
+    },
+    {
+      "id": "11113",
+      "cityName": "Surat",
+      "countryName": "India",
+      "emoji": "🇮🇳",
+      "notes": "",
+      "date": "2025-09-27T09:32:22.437Z",
+      "position": {
+        "lat": "21.217318286813857",
+        "lng": "72.90832265754847"
+      }
+    },
+    {
+      "id": "11114",
+      "cityName": "Ludhiana",
+      "countryName": "India",
+      "emoji": "🇮🇳",
+      "notes": "",
+      "date": "2025-09-27T09:33:08.328Z",
+      "position": {
+        "lat": "30.908131763466834",
+        "lng": "75.94392762530856"
+      }
+    },
+    {
+      "id": "1115",
+      "cityName": "Mumbai",
+      "countryName": "India",
+      "emoji": "🇮🇳",
+      "notes": "",
+      "date": "2025-09-27T09:35:27.668Z",
+      "position": {
+        "lat": "19.059433493057877",
+        "lng": "72.93010682871757"
+      }
     }
   ]
 }
