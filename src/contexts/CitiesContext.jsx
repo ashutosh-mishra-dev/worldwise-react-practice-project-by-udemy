@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import PropTypes from "prop-types";
 
+// step 1 : create context
 const CitiesContext = createContext();
 
 const BASE_URL = "http://localhost:8000";
@@ -71,8 +72,8 @@ function CitiesProvider({ children }) {
       setIsLoading(false);
     }
   }
-
   return (
+    // step 2 : yha ham return kra rhe h and assign value in context using provider
     <CitiesContext.Provider
       value={{
         cities,
@@ -83,11 +84,13 @@ function CitiesProvider({ children }) {
         deleteCity,
       }}>
       {children}
+      {/* yha hamne children es liye rakha h ki yha jis jis component ko eska value chahiye vo aayenge aur value ko access karenge */}
     </CitiesContext.Provider>
   );
 }
-
+// here we are creating custom hook for using context api value
 function useCities() {
+  //step 3 : here use context
   const context = useContext(CitiesContext);
   return context;
 }

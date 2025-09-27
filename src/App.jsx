@@ -14,6 +14,7 @@ import { CitiesProvider } from "./contexts/CitiesContext";
 
 function App() {
   return (
+    //step 4 : ye step 4 context api ka h . yha CitiesProvider ek wrapper ki tarah use ho rha jo
     <CitiesProvider>
       <BrowserRouter>
         <Routes>
