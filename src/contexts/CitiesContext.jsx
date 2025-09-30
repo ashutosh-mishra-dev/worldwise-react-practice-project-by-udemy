@@ -104,7 +104,7 @@ function useCities() {
   const context = useContext(CitiesContext);
   return context;
 }
-
+/* eslint-disable react-refresh/only-export-components */
 export { CitiesProvider, useCities };
 
 CitiesProvider.propTypes = {
