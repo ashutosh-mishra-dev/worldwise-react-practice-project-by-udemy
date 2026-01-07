@@ -1,0 +1,141 @@
+---
+
+## 📌 React se Pehle Kya Kya Aana Jaruri Hai
+
+### 1. **Basic Computer & Web Knowledge**
+
+* Browser kya hota hai, kaise kaam karta hai
+
+* Internet, Server, Client ka basic idea
+
+---
+
+### 2. **HTML (Structure banane ke liye)**
+
+* HTML Tags (div, span, p, h1-h6, ul-li, a, img, form, input, button)
+
+* Semantic HTML (header, footer, nav, article, section)
+
+* Forms & attributes (value, placeholder, required)
+
+* Table, iframe, video, audio
+
+* `id` vs `class`
+
+* HTML5 features (localStorage, semantic tags, etc.)
+
+---
+
+### 3. **CSS (Design ke liye)**
+
+* Selectors (class, id, element, pseudo classes \:hover, \:nth-child)
+
+* Box Model (margin, padding, border)
+
+* Flexbox (center karna, spacing, alignment)
+
+* Grid (rows, columns)
+
+* Position (static, relative, absolute, fixed, sticky)
+
+* Responsive design (media queries, % , vh, vw, rem, em units)
+
+* CSS animations & transitions
+
+* Difference between inline, internal, external CSS
+
+---
+
+### 4. **JavaScript (Sabse important, React ka base ye hi hai)**
+
+👉 Ye part bahut solid hona chahiye:
+
+#### 🟢 Basics
+
+* Variables (`var`, `let`, `const`)
+
+* Data Types (string, number, boolean, null, undefined, object, array)
+
+* Operators (+, -, == vs ===, &&, ||, !)
+
+* Conditionals (if/else, switch)
+
+* Loops (for, while, do...while, for...of, for...in, forEach, map)
+
+#### 🟢 Functions
+
+* Normal & arrow functions
+
+* Function parameters & return
+
+* Callback functions
+
+* Higher-order functions (map, filter, reduce, find, some, every)
+
+#### 🟢 DOM (Document Object Model)
+
+* `document.querySelector`, `getElementById`
+
+* Event handling (`onclick`, `addEventListener`)
+
+* Manipulating DOM (innerText, innerHTML, style, classList)
+
+#### 🟢 Advanced Concepts
+
+* Objects & Arrays (nested bhi)
+
+* `this` keyword
+
+* Destructuring
+
+* Spread & Rest operators
+
+* Template literals
+
+* ES6+ concepts (modules `import/export`)
+
+* Closures, Scope, Hoisting
+
+* Promise, async/await, fetch API
+
+* Event loop & setTimeout, setInterval
+
+---
+
+### 5. **Git & GitHub (Code manage karne ke liye)**
+
+* Git init, clone, add, commit, push, pull
+
+* GitHub repository banana
+
+---
+
+### 6. **Basic NPM / Node.js Knowledge**
+
+* Node.js ka basic idea (JS ko browser ke bahar run karne ke liye)
+
+* npm (package manager) → `npm init`, `npm install`
+
+* Packages install karna (lodash, axios, etc.)
+
+---
+
+### 7. **ES6 Modules**
+
+* `import` / `export`
+
+* Default vs Named exports
+
+---
+
+⚡ **React ke liye sabse important**:
+
+1. HTML + CSS (UI banane ke liye)
+
+2. JavaScript basics + ES6 (logic ke liye)
+
+3. DOM + Events (kyunki React virtual DOM use karta hai)
+
+4. Promise + async/await (API calls ke liye)
+
+---

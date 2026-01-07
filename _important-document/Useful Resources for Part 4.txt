@@ -1,0 +1,20 @@
+Here are some high-quality resources that you might find helpful while studying this Part 4. (The list follows the order of sections in this part)
+
+
+👉 React Libraries for 2023 (Written in 2023, but will be up-to-date for years, as the ecosystem is relatively stable now) :- https://www.robinwieruch.de/react-libraries/?ref=jonas.io
+
+👉 Styled-components best practices (By the excellent writer and educator Josh W. Comeau) :- https://www.joshwcomeau.com/css/styled-components/?ref=jonas.io
+
+👉 A Thorough Analysis of CSS-in-JS :- https://www.udemy.com/course/the-ultimate-react-course/learn/lecture/37352508#overview
+
+
+👉 Practical React Query (A huge series from one of React Query's maintainers. Started in 2020, but is still going, and still very helpful) :- https://tkdodo.eu/blog/practical-react-query?ref=jonas.io
+
+
+👉 React Query meets React Router (From the same series as above):- https://tkdodo.eu/blog/react-query-meets-react-router?ref=jonas.io
+
+
+👉 Picking the right React component pattern :- https://www.benmvp.com/blog/picking-right-react-component-pattern/?ref=jonas.io
+
+
+👉 Bulletproof-react: A simple, scalable, and powerful architecture for building production-ready React applications (GitHub repository)  :- https://github.com/alan2207/bulletproof-react?ref=jonas.io

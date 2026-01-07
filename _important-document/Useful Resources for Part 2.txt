@@ -1,0 +1,49 @@
+👉 Writing Resilient Components (By Dan Abramov from the React team)
+	https://overreacted.io/writing-resilient-components/?ref=jonas.io
+
+👉 Things I think about when I write React code (GitHub repository)
+	https://github.com/mithi/react-philosophies?ref=jonas.io
+
+👉 A (Mostly) Complete Guide to React Rendering Behavior (By Mark Erikson from the redux team)
+	https://blog.isquaredsoftware.com/2020/05/blogged-answers-a-mostly-complete-guide-to-react-rendering-behavior/?ref=jonas.io
+
+👉 A Visual Guide to React Rendering (A multi-part series, check out the other ones)
+	https://alexsidorenko.com/blog/react-render-always-rerenders?ref=jonas.io
+
+
+👉 Inside Fiber: in-depth overview of the new reconciliation algorithm in React
+	https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e
+
+👉 A Cartoon Intro to Fiber (YouTube video)
+	https://www.youtube.com/watch?v=ZCuYPiUIONs
+
+👉 What Is React Fiber? React.js Deep Dive (YouTube video)
+	https://www.youtube.com/watch?v=0ympFIwQFJw
+
+👉 The React and React Native Event System Explained
+	https://levelup.gitconnected.com/how-exactly-does-react-handles-events-71e8b5e359f2?gi=61b90130bafe&ref=jonas.io
+
+👉 Under the hood of event listeners in React
+	https://gist.github.com/romain-trotard/76313af8170809970daa7ff9d87b0dd5?ref=jonas.io
+
+👉 A DIY guide to build your own React
+	https://github.com/pomber/didact?ref=jonas.io
+
+👉 useSyncExternalStore First Look
+	https://julesblom.com/writing/usesyncexternalstore?ref=jonas.io
+
+
+👉 Under the hood of React's hooks system
+	https://the-guild.dev/blog/react-hooks-system?ref=jonas.io
+
+👉 Why Do React Hooks Rely on Call Order? (By Dan Abramov
+	https://overreacted.io/why-do-hooks-rely-on-call-order/?ref=jonas.io
+
+👉 So you think you know everything about React refs
+	
+
+👉 react-use: Reusable React Hook Library (GitHub repository)
+	https://github.com/streamich/react-use?ref=jonas.io
+
+👉 react-hookz: React hooks done right (GitHub repository)
+	https://github.com/react-hookz/web?ref=jonas.io
